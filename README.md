@@ -29,7 +29,7 @@ one needs to have installed the following in their system
 
 run the following in your terminal
 
-    - `$ git clone https://github.com/KellenNjoroge/Password-Manager/`
+    - `$ git clone https://github.com/KellenNjoroge/KellerPasswords/`
     - `$ cd Password-Manager`
     
   
