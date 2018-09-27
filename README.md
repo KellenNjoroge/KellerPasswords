@@ -38,4 +38,4 @@ run the following in your terminal
 
 ## License
 
-MIT license (LICENSE)[LICENSE]
+MIT license (LICENSE).[LICENSE]
