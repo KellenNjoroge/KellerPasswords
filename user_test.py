@@ -1,5 +1,6 @@
 import unittest
-from user import User
+from user import User, Credential
+import pyperclip
 
 
 class TestUser(unittest.TestCase):
@@ -38,6 +39,23 @@ class TestCredentials(unittest.TestCase):
 	Args:
 		unittest.TestCase: helps in creating test cases
 	"""
+    @property
+    def test_check_user(self):
+        """
+		Function to test whether the login in function check_user works as expected
+		"""
+        self.new_user = User("Kellen", "Njoroge", "boo98")
+        self.new_user.save_user()
+        user2 = User("Mercy", "Kubania", "kubz97")
+        user2.save_user()
+
+        for user in User.users_list:
+            if user.first_name == user2.first_name and user.password == user2.password:
+                current_user = user.first_name
+        return current_user
+
+        self.assertEqual(current_user, Credential.check_user(user2.password, user2.first_name))
+
     def setUp(self):
         """
 		Function to create an account's credentials before each test
@@ -52,23 +70,48 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual(self.new_credential.site_name, 'Facebook')
         self.assertEqual(self.new_credential.account_name, 'Kellen Njoroge')
         self.assertEqual(self.new_credential.password, 'boo90')
-    @property
-    def test_check_user(self):
+    #
+    # def test_save_credentials(self):
+    #     """
+	# 	Test to check if the new credential info is saved into the credentials list
+	# 	"""
+    #     self.new_credential.save_credentials()
+    #     twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+    #     twitter.save_credentials()
+    #     self.assertEqual(len(Credential.credentials_list), 2)
+
+    def test_display_credentials(self):
         """
-		Function to test whether the login in function check_user works as expected
+		Test to check if the display_credentials method, displays the correct credentials.
 		"""
-        self.new_user = User("Mercy", "Kubania",  "kubz97")
-        self.new_user.save_user()
-        user2 = User("Mercy", "Kubania", "kubz97")
-        user2.save_user()
+        self.new_credential.save_credentials()
+        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+        twitter.save_credentials()
+        gmail = Credential('Njoroge', 'Gmail', 'Njoroge_Chosen', 'boo90')
+        gmail.save_credentials()
+        self.assertEqual(len(Credential.display_credentials(twitter.user_name)), 2)
 
-        for user in User.users_list:
-            if user.first_name == user2.first_name and user.password == user2.password:
-                current_user = user.first_name
-        return current_user
+    # def test_find_by_site_name(self):
+    #     """
+    #     Test to check if the find_by_site_name method returns the correct credential
+    #     """
+    #     self.new_credential.save_credentials()
+    #     twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+    #     twitter.save_credentials()
+    #     credential_exists = Credential.find_by_site_name('Twitter')
+    #     self.assertEqual(credential_exists, twitter)
 
-        self.assertEqual(current_user, Credential.check_user(user2.password, user2.first_name))
-
-
-if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    def test_copy_credential(self):
+        """
+		Test to check if the copy a credential method copies the correct credential
+		"""
+        self.new_credential.save_credentials()
+        twitter = Credential('Kellen', 'Njoroge', 'kllnNJoroge', 'boo90')
+        twitter.save_credentials()
+        find_credential = None
+        for credential in Credential.user_credentials_list:
+            find_credential = Credential.find_by_site_name(credential.site_name)
+            return pyperclip.copy(find_credential.password)
+        Credential.copy_credential(self.new_credential.site_name)
+        self.assertEqual('boo90', pyperclip.paste())
+        print(pyperclip.paste())

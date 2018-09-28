@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05083216-ad55-40fc-88ff-1f06c2e2eec8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../user_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +18,7 @@
     <session id="1910459077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -46,14 +51,35 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-1431803035">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="154" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="154" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="470">
+              <first_editor relative-caret-position="600">
                 <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               </first_editor>
               <second_editor>
@@ -64,10 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user_test.py">
+        <entry file="file://$PROJECT_DIR$/../user_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+            <state relative-caret-position="123">
+              <caret line="101" column="54" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="101" selection-end-column="54" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -76,23 +102,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user.py">
+        <entry file="file://$PROJECT_DIR$/../user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="201">
+              <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+        <entry file="file://$PROJECT_DIR$/../LICENSE">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,14 +129,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/user.py" />
         <option value="$PROJECT_DIR$/user_test.py" />
+        <option value="$PROJECT_DIR$/../user.py" />
+        <option value="$PROJECT_DIR$/../user_test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="27" />
-    <option name="width" value="683" />
+    <option name="width" value="673" />
     <option name="height" value="736" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -118,7 +150,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="KellerPasswords" type="b2602c69:ProjectViewProjectNode" />
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="KellerPasswords" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -142,7 +174,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for user_test.TestCredentials">
+    <configuration name="pytest for user_test.TestCredentials" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="KellerPasswords" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_test.TestCredentials&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for user_test.TestUser" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="KellerPasswords" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +205,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in user_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="KellerPasswords" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../user_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for user_test.TestUser" />
+      <item itemvalue="Python tests.pytest in user_test.py" />
+      <item itemvalue="Python tests.pytest for user_test.TestCredentials" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for user_test.TestCredentials" />
+        <item itemvalue="Python tests.pytest in user_test.py" />
         <item itemvalue="Python tests.pytest for user_test.TestUser" />
       </list>
     </recent_temporary>
@@ -168,43 +237,51 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 15h 20m 14s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 21m 01s.xml">
+      <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 15h 20m 37s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 21m 15s.xml">
+      <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 15h 23m 54s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 23m 49s.xml">
+      <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 15h 24m 58s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 24m 20s.xml">
+      <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 15h 25m 10s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 24m 41s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 16h 10m 14s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 25m 02s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_user_test_TestUser - 2018.09.27 at 16h 10m 52s.xml">
-      <configuration name="pytest for user_test.TestUser" configurationId="tests" />
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 27m 26s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 28m 10s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 28m 47s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 29m 06s.xml">
+      <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="27" width="673" height="736" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12285927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25384617" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32605305" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50630915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32917318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,13 +291,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="470">
+          <first_editor relative-caret-position="600">
             <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           </first_editor>
           <second_editor>
@@ -229,17 +303,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.py">
+    <entry file="file://$PROJECT_DIR$/../LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="201">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_test.py">
+    <entry file="file://$PROJECT_DIR$/../user_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+        <state relative-caret-position="123">
+          <caret line="101" column="54" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="101" selection-end-column="54" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
