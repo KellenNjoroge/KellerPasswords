@@ -39,6 +39,7 @@ class TestCredentials(unittest.TestCase):
 	Args:
 		unittest.TestCase: helps in creating test cases
 	"""
+
     @property
     def test_check_user(self):
         """
@@ -70,11 +71,12 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual(self.new_credential.site_name, 'Facebook')
         self.assertEqual(self.new_credential.account_name, 'Kellen Njoroge')
         self.assertEqual(self.new_credential.password, 'boo90')
+
     #
     # def test_save_credentials(self):
     #     """
-	# 	Test to check if the new credential info is saved into the credentials list
-	# 	"""
+    # 	Test to check if the new credential info is saved into the credentials list
+    # 	"""
     #     self.new_credential.save_credentials()
     #     twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
     #     twitter.save_credentials()
@@ -115,3 +117,7 @@ class TestCredentials(unittest.TestCase):
         Credential.copy_credential(self.new_credential.site_name)
         self.assertEqual('boo90', pyperclip.paste())
         print(pyperclip.paste())
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
