@@ -25,12 +25,12 @@ one needs to have installed the following in their system
     -  python3.6
     -  pip
     -  pyperclip
-    -  xclip
+
 
 run the following in your terminal
 
     - `$ git clone https://github.com/KellenNjoroge/KellerPasswords/`
-    - `$ cd Password-Manager`
+    - `$ cd KellerPasswords`
     
   
 ## Known bugs
@@ -38,4 +38,4 @@ run the following in your terminal
 
 ## License
 
-MIT license (LICENSE).[LICENSE]
+MIT license (LICENSE)[LICENSE]

@@ -275,9 +275,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 21m 15s.xml">
-      <configuration name="pytest in user_test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_user_test_py - 2018.09.28 at 13h 23m 49s.xml">
       <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
@@ -304,6 +301,9 @@
     </history-entry>
     <history-entry file="pytest_for_user_test_TestCredentials - 2018.09.28 at 13h 30m 51s.xml">
       <configuration name="pytest for user_test.TestCredentials" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_user_test_py - 2018.10.01 at 08h 14m 57s.xml">
+      <configuration name="pytest in user_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
