@@ -70,14 +70,18 @@ def main():
         print("-" * 60)
         print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit')
         short_code = input('Enter a choice: ').lower().strip()
+        print('\n')
         if short_code == 'ex':
             break
         elif short_code == 'ca':
             print("-" * 60)
             print(' ')
             print('To create a new account:')
+            print('\n')
             first_name = input('Enter your first name - ').strip()
+            print('\n')
             last_name = input('Enter your last name - ').strip()
+            print('\n')
             password = input('Enter your password - ').strip()
             save_user(create_user(first_name, last_name, password))
             print(" ")
