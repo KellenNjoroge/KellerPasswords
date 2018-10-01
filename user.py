@@ -2,6 +2,8 @@ import random
 import string
 import pyperclip
 
+global users_list
+
 
 class User:
     """
@@ -21,16 +23,16 @@ class User:
         self.last_name = last_name
         self.password = password
 
-    @classmethod
-    def check_user(cls, first_name, password):
-        """
-		Method that checks if the name and password entered match entries in the users_list
-		"""
-        current_user = ''
-        for user in User.users_list:
-            if (user.first_name == first_name and user.password == password):
-                current_user = user.first_name
-        return current_user
+    # @classmethod
+    # def check_user(cls, first_name, password):
+    #     """
+	# 	Method that checks if the name and password entered match entries in the users_list
+	# 	"""
+    #     current_user = ''
+    #     for user in User.users_list:
+    #         if (user.first_name == first_name and user.password == password):
+    #             current_user = user.first_name
+    #     return current_user
 
     def save_user(self):
         """
