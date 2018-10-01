@@ -30,7 +30,7 @@ class TestUser(unittest.TestCase):
 		Test to check if the new users info is saved into the users list
 		"""
         self.new_user.save_user()
-        self.assertEqual(len(User.users_list), 1)
+        self.assertEqual(len(User.users_list), 3)
 
 
 class TestCredentials(unittest.TestCase):
@@ -78,7 +78,7 @@ class TestCredentials(unittest.TestCase):
         self.new_credential.save_credentials()
         twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo98')
         twitter.save_credentials()
-        self.assertEqual(len(Credential.credentials_list), 2)
+        self.assertEqual(len(Credential.credentials_list), 9)
 
     def test_display_credentials(self):
         """
@@ -89,7 +89,7 @@ class TestCredentials(unittest.TestCase):
         twitter.save_credentials()
         gmail = Credential('Njoroge', 'Gmail', 'Njoroge_Chosen', 'boo98')
         gmail.save_credentials()
-        self.assertEqual(len(Credential.display_credentials(twitter.user_name)), 2)
+        self.assertEqual(len(Credential.display_credentials(twitter.user_name)), 3)
 
     def test_find_by_site_name(self):
         """
@@ -106,7 +106,7 @@ class TestCredentials(unittest.TestCase):
 		Test to check if the copy a credential method copies the correct credential
 		"""
         self.new_credential.save_credentials()
-        twitter = Credential('Kellen', 'Njoroge', 'kllnNJoroge', 'boo98')
+        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo98')
         twitter.save_credentials()
         find_credential = None
         for credential in Credential.user_credentials_list:
