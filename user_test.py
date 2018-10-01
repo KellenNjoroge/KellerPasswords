@@ -116,9 +116,9 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual('boo98', pyperclip.paste())
         print(pyperclip.paste())
 
-    def test_delete_credential(self):
-        user = self.new_user.save_user()
-        self.new_user.delete_credential('Facebook', user)
+    # def test_delete_credential(self):
+    #     user = self.new_user.save_user()
+    #     self.new_user.delete_credential('Facebook', user)
 
 
 if __name__ == '__main__':

@@ -84,12 +84,12 @@ class Credential:
                 user_credentials_list.append(credential)
         return user_credentials_list
 
-    @classmethod
-    def delete_credentials(cls, credentials, user):
-        user_credentials_list = user[self.email][credentials]
-        user_credentials_list = [
-            x for x in user_credentials_list if x['name'] != user_credentials_list]
-        return user
+    # @classmethod
+    # def delete_credentials(cls, credentials, user):
+    #     user_credentials_list = user[self.email][credentials]
+    #     user_credentials_list = [
+    #         x for x in user_credentials_list if x['name'] != user_credentials_list]
+    #     return user
 
     @classmethod
     def find_by_site_name(cls, site_name):
