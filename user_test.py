@@ -47,7 +47,7 @@ class TestCredentials(unittest.TestCase):
 		"""
         self.new_user = User("Kellen", "Njoroge", "boo98")
         self.new_user.save_user()
-        user2 = User("Mercy", "Kubania", "kubz97")
+        user2 = User("Kellen", "Njoroge", "boo98")
         user2.save_user()
 
         for user in User.users_list:
@@ -70,14 +70,14 @@ class TestCredentials(unittest.TestCase):
         self.assertEqual(self.new_credential.user_name, 'Kellen')
         self.assertEqual(self.new_credential.site_name, 'Facebook')
         self.assertEqual(self.new_credential.account_name, 'Kellen Njoroge')
-        self.assertEqual(self.new_credential.password, 'boo90')
+        self.assertEqual(self.new_credential.password, 'boo98')
 
     def test_save_credentials(self):
         """
     	Test to check if the new credential info is saved into the credentials list
     	"""
         self.new_credential.save_credentials()
-        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo98')
         twitter.save_credentials()
         self.assertEqual(len(Credential.credentials_list), 2)
 
@@ -86,9 +86,9 @@ class TestCredentials(unittest.TestCase):
 		Test to check if the display_credentials method, displays the correct credentials.
 		"""
         self.new_credential.save_credentials()
-        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo98')
         twitter.save_credentials()
-        gmail = Credential('Njoroge', 'Gmail', 'Njoroge_Chosen', 'boo90')
+        gmail = Credential('Njoroge', 'Gmail', 'Njoroge_Chosen', 'boo98')
         gmail.save_credentials()
         self.assertEqual(len(Credential.display_credentials(twitter.user_name)), 2)
 
@@ -107,14 +107,14 @@ class TestCredentials(unittest.TestCase):
 		Test to check if the copy a credential method copies the correct credential
 		"""
         self.new_credential.save_credentials()
-        twitter = Credential('Kellen', 'Njoroge', 'kllnNJoroge', 'boo90')
+        twitter = Credential('Kellen', 'Njoroge', 'kllnNJoroge', 'boo98')
         twitter.save_credentials()
         find_credential = None
         for credential in Credential.user_credentials_list:
             find_credential = Credential.find_by_site_name(credential.site_name)
             return pyperclip.copy(find_credential.password)
         Credential.copy_credential(self.new_credential.site_name)
-        self.assertEqual('boo90', pyperclip.paste())
+        self.assertEqual('boo98', pyperclip.paste())
         print(pyperclip.paste())
 
 

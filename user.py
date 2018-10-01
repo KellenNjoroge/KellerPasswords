@@ -56,7 +56,7 @@ class Credential:
 		"""
         current_user = ''
         for user in User.users_list:
-            if (user.first_name == first_name and user.password == password):
+            if user.first_name == first_name and user.password == password:
                 current_user = user.first_name
         return current_user
 
