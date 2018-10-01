@@ -39,8 +39,6 @@ class TestCredentials(unittest.TestCase):
 	Args:
 		unittest.TestCase: helps in creating test cases
 	"""
-
-    @property
     def test_check_user(self):
         """
 		Function to test whether the login in function check_user works as expected
@@ -61,7 +59,7 @@ class TestCredentials(unittest.TestCase):
         """
 		Function to create an account's credentials before each test
 		"""
-        self.new_credential = Credential('Kellen', 'Facebook', 'Kellen Njoroge', 'boo90')
+        self.new_credential = Credential('Kellen', 'Facebook', 'Kellen Njoroge', 'boo98')
 
     def test__init__(self):
         """
@@ -97,7 +95,7 @@ class TestCredentials(unittest.TestCase):
         Test to check if the find_by_site_name method returns the correct credential
         """
         self.new_credential.save_credentials()
-        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo90')
+        twitter = Credential('Njoroge', 'Twitter', 'Njoroge_Chosen', 'boo98')
         twitter.save_credentials()
         credential_exists = Credential.find_by_site_name('Twitter')
         self.assertEqual(credential_exists, twitter)
